@@ -1,54 +1,78 @@
-# React + TypeScript + Vite
+<h1 align="center">PizzaShop</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 
-Currently, two official plugins are available:
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white">
 
-## Expanding the ESLint configuration
+</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<!-- Status -->
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+<h4 align="center">
+	🚧  PizzaShop 🚀 Em construção...  🚧
+</h4>
+
+<hr>
+
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/fredchien/" target="_blank">Autor</a>
+</p>
+
+<br>
+
+## :dart: Sobre
+
+CRM
+
+## :sparkles: Funcionalidades
+
+:heavy_check_mark: Pedidos;
+:heavy_check_mark: Dashboard;
+:heavy_check_mark: Cadastro de restaurantes;
+
+## :rocket: Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [React](https://react.dev)
+
+## :white_check_mark: Pré requisitos
+
+Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+
+## :checkered_flag: Começando
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/fredchien/pizzashop-web
+
+# Entre na pasta
+$ cd pizzashop-web
+
+# Instale as dependências
+$ npm i
+
+# Para iniciar o projeto
+$ npm run dev
+
+# O app vai inicializar em <http://localhost:3000>
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## :memo: Licença
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Feito com :heart: por <a href="https://github.com/fredchien" target="_blank">Frederic Chien</a>
+
+&#xa0;
+
+<a href="#top">Voltar para o topo</a>
